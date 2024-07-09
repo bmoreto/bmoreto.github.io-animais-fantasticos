@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
@@ -10,19 +10,19 @@
 </head>
 
 <body>
-  <header>
-    <nav class="menu">
+  <header class="menu">
+    <nav>
       <ul>
         <li><a href="#animais">Animais</a></li>
         <li><a href="#faq">Faq</a></li>
         <li><a href="#contato">Contato</a></li>
-        <li><a href="#dev">Dev →</a></li>
+        <li><a href="https://www.origamid.com/">Dev →</a></li>
       </ul>
     </nav>
   </header>
 
-  <section id="animais" class="animais">
-    <h1>Animais Fantásticos</h1>
+  <section id="animais" class="grid-section animais">
+    <h1 class="titulo">Animais Fantásticos</h1>
     <ul class="animais-lista">
       <li><img src="./img/imagem1.jpg" alt="raposa"></li>
       <li><img src="./img/imagem2.jpg" alt="esquilo"></li>
@@ -83,23 +83,24 @@
     </div>
   </section>
 
-  <section id="faq" class="faq">
-    <h1>FAQ</h1>
-    <dl>
-      <dd>Qual a idade dos animais?</dd>
-      <dt>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio, caracterizados por um focinho comprido e uma cauda longa e peluda.</dt>
-      <dd>Eles são fantásticos?</dd>
-      <dt>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</dt>
-      <dd>Qual a diferença?</dd>
-      <dt>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio, caracterizados por um focinho comprido e uma cauda longa e peluda.</dt>
-      <dd>Como proteger?</dd>
-      <dt>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</dt>
+  <section id="faq" class="grid-section faq">
+    <h1 class="titulo">FAQ</h1>
+    <dl class="faq-lista">
+      <dt>Qual a idade dos animais?</dt>
+      <dd>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio, caracterizados por um focinho comprido e uma cauda longa e peluda.</dd>
+      <dt>Eles são fantásticos?</dt>
+      <dd>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</dd>
+      <dt>Qual a diferença?</dt>
+      <dd>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio, caracterizados por um focinho comprido e uma cauda longa e peluda.</dd>
+      <dt>Como proteger?</dt>
+      <dd>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</dd>
     </dl>
   </section>
 
-  <section id="contato" class="contato">
-    <h1>Contato</h1>
-    <div class="mapa" <img src="./img/mapa.png" alt="mapa">
+  <section id="contato" class="grid-section contato">
+    <h1 class="titulo">Contato</h1>
+    <div class="mapa">
+      <img src="./img/mapa.png" alt="mapa">
     </div>
     <ul class="dados">
       <li>contato@origamid.com</li>
@@ -113,6 +114,7 @@
     <p>Todos os direitos reservados.</p>
   </footer>
 
+  <script src="./js/script.js"></script>
 </body>
 
 </html>
