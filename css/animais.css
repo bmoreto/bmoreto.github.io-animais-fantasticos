@@ -33,6 +33,10 @@
   background: #faf6ed;
 }
 
+.animais-lista li {
+  cursor: pointer;
+}
+
 .animais-descricao {
   grid-column: 3;
 }
@@ -44,5 +48,25 @@
 @media (max-width: 700px) {
   .animais-lista {
     grid-column: 1;
+  }
+}
+
+.js-tabcontent section {
+  display: none;
+}
+
+.js-tabcontent section.ativo {
+  display: block !important;
+  animation: show 0.5s forwards;
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+    transform: translate3d(-30px, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
   }
 }
